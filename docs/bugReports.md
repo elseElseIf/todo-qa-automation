@@ -70,3 +70,40 @@ The application crashes immediately after rotating the device.
 
 ## Status
 Open
+
+# BUG-3
+
+## Title
+Task Name and Task Description fields do not accept non-English characters during task creation.
+
+## Severity
+Medium
+
+## Priority
+Medium
+
+## Environment
+- Device: Android Emulator
+- OS: Android 14
+- Application Version: 1.0
+
+## Preconditions
+The application is launched.
+
+## Steps to Reproduce
+1. Launch the application.
+2. Tap the Add button to open the task creation screen.
+3. Try to enter text in the Task Name field using a non-English language (e.g., Belarusian Cyrillic characters).
+4. Try to enter text in the Task Description field using the same language.
+
+## Expected Result
+The Task Name and Task Description fields accept text input in different languages, including Cyrillic characters.
+
+## Actual Result
+The fields do not accept non-English characters. Entered Cyrillic text is not displayed. Only numeric characters can be entered successfully.
+
+## Frequency
+100% (Always)
+
+## Status
+Open
