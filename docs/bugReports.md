@@ -34,3 +34,39 @@ The task is created with an empty title.
 ## Status
 Open
 
+
+# BUG-2
+
+## Title
+Application crashes when the device is rotated on the "Add Task" screen.
+
+## Severity
+High
+
+## Priority
+High
+
+## Environment
+- Device: Android Emulator
+- OS: Android 14
+- Application Version: 1.0
+
+## Preconditions
+The application is launched.
+
+## Steps to Reproduce
+1. Launch the application.
+2. Tap the Add button to open the "Add Task" screen.
+3. Rotate the device from Portrait to Landscape.
+
+## Expected Result
+The "Add Task" screen remains open and the application continues to work normally.
+
+## Actual Result
+The application crashes immediately after rotating the device.
+
+## Frequency
+100% (Always)
+
+## Status
+Open
