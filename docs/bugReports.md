@@ -28,7 +28,8 @@ The application should display a validation message and prevent task creation.
 The task is created with an empty title.
 
 ### Attachments
-Screenshot: src/empty_title_bug.png
+
+![Screenshot of the bug](../scr/empty_title_bug.png)
 
 ## Status
 Open
